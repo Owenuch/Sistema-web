@@ -1,0 +1,43 @@
+﻿body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white !important;
+}
+
+.role-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.role-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.role-icon {
+    font-size: 60px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.role-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(65vh - 70px); /* Reduce la altura para subir el contenido */
+    padding-top: 10px; /* Ajuste adicional opcional */
+}

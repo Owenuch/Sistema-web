@@ -1,0 +1,13 @@
+﻿/* Estilo del título en la página de inicio */
+h1 {
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
